@@ -8,8 +8,6 @@ Task4
 import sys
 
 a = sys.argv[1]
-if a == "file4.txt":
-	print('Стас гей')
 file4 = open(a, "r")
 
 #Считывание файла
