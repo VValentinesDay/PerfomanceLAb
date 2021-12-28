@@ -1,6 +1,8 @@
+intro = input()
+intro1 = intro.split()
+n = int(intro1[0])
+m = int(intro1[1]) - 1
 
-n = int(input("Введите число n "))
-m = int(input("Введите число длины обхода m ")) - 1
 if n < m:
     print("n не может быть меньше m")
     while n < m:
